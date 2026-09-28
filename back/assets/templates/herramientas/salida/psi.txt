@@ -1,0 +1,48 @@
+En Altabria {diaContrato} de {mesContrato} de {anioContrato}
+CONTRATO DE PERSONAL SHOPPER INMOBILIARIO 
+REUNIDOS DE UNA PARTE, {clienteNombre}, mayor de edad, con DNI: {clienteDni} y domicilio en {clienteDomicilio} en adelante CLIENTE COMPRADOR. 
+Y DE OTRA PARTE Vantia Patrimonio S.L con CIF: B00000000 y con domicilio en Calle Mayor 1, 1.º 00110 Altabria (Nortia), en adelante PSI (PERSONAL SHOPPER INMOBILIARIO). Ambas partes actúan en su propio nombre y derecho y se reconocen mutua y recíprocamente capacidad legal suficiente para el otorgamiento del presente contrato de PERSONAL SHOPPER INMOBILIARIO y a tal fin: 
+EXPONEN 
+PRIMERO. - Que el cliente comprador está interesado en la adquisición de una vivienda mediante compraventa con los siguientes requisitos.
+1- Tipo de vivienda: {tipoVivienda}
+2- Ubicación: {ubicacionesBusqueda}
+3- Precio: {rangoPrecio} (sin incluir impuestos y reforma, etc. solo precio de compra del inmueble)
+SEGUNDO. - Que interesando al PSI aceptar el encargo del CLIENTE de buscarle la vivienda que reúna los requisitos enumerados, las partes llevan a cabo el presente contrato de personal shopper inmobiliario de acuerdo con las siguientes clausulas.
+2.1.- DURACION: El presente encargo de compra tendrá una duración de {duracionEncargo}, a partir de la firma del presente documento. En principio no se limitan el número de oportunidades (fichas que se envían al cliente) durante el periodo de duración del presente contrato.
+2.2.- TAREAS DEL PSI 
+- BUSQUEDA: El PSI se compromete a buscar inmuebles con las características requeridas por el cliente, para tal fin visitará los inmuebles de la zona requerida que reúnan los citados requisitos y elaborará un informe que se lo enviará al cliente. En dicho informe expondrá todas las características del inmueble, edificio, y rentabilidad de alquiler o venta de dicho inmueble.
+- SELECCIÓN: El PSI hará una selección de 2 y 5 inmuebles, siempre y cuando haya disponibles en la zona solicitada y que se ajusten a los requisitos anteriormente señalados, y los visitará junto con el cliente para que éste pueda decidir comprar el que más le convenga.
+- NEGOCIACIÓN. El PSI negociará, con el propietario o con quien esté encargado de gestionar la venta, en nombre del cliente, el precio y las condiciones de la transacción intentando conseguir el menor precio posible. 
+- ASESORAMIENTO El PSI asesorará al cliente en todos los trámites de la venta y postventa del inmueble.
+ 
+TERCERA. - OBLIGACIONES DEL CLIENTE. - Exclusividad: El cliente se compromete: 
+3.1 A que todos los actos y negociaciones relativos a la adquisición de la propiedad elegida por él se hagan a través del PSI y a no visitar inmuebles por su cuenta o por mediación de un tercero. 
+3.2 A no efectuar la compra por sí mismo o por mediación de terceras personas durante el periodo de vigencia del presente contrato. 
+3.3 A no poner la información facilitada por el PSI a disposición de cualquiera de sus parientes en línea directa o colateral para que sean ellos quienes realicen la compraventa a espaldas del PSI. 
+3.4 A pagar los honorarios del PSI, aún en el supuesto caso de que haya expirado el plazo de vigencia del presente contrato, en el supuesto de que el cliente adquiera cualquiera de las propiedades que le haya ofrecido o transmitido información sobre ellas el PSI. 
+3.5 Capacidad económica: El cliente comprador declara disponer de capacidad económica suficiente para adquirir un inmueble en el precio señalado. 
+CUARTA. - Conflicto de intereses 
+El cliente reconoce y acepta que el PSI: 
+4.1 Puede representar a otros compradores interesados en adquirir una propiedad de similares características. 
+4.2 Puede mostrar a más de un cliente la misma propiedad. 
+4.3 Puede hacer ofertas sobre la misma propiedad para más de un cliente. 
+El PSI declara que se obliga a: 
+1º Preservar cualquier información confidencial y no desvelar la existencia de ofertas o acuerdos encaminados a la adquisición de la propiedad objeto del presente contrato hechos por cualquiera de sus clientes a los demás. 
+2º Trabajar con equidad en el supuesto de que varios de sus clientes compitan por la misma propiedad. 
+QUINTA. - Honorarios 
+Los honorarios del PSI serán de {honorariosTotales} y se devengarán en las siguientes fases: El cliente pagará al PSI la cantidad de {honorariosPrimerPago} en concepto de primera parte de los honorarios para los gastos que el presente encargo le pueda suponer, a la firma del presente contrato.
+2º.-En el momento de la firma de arras se abonará la segunda parte de los honorarios de {honorariosSegundoPago}.
+El ingreso se realizará por transferencia en el nº de cuenta: ES00 0000 0000 0000 0000 0000
+Los honorarios pagados son por el trabajo realizado durante {duracionEncargo}, por lo que no se contempla la devolución de este.
+Servicios adicionales:
+Asesoramiento en reformas y Home Staging onlineincluido
+Seguimiento de reformas y Home Staging, (Llave en mano)importe a convenir más IVA
+Alquiler temporal a empresas como inmobiliaria.A consultar
+Curso - mentoría alquiler empresasimporte a convenir
+Mentoría en estrategia inmobiliaria
+Asesoramiento financiero para logro de objetivos,importe a convenir + IVA
+Acompañamiento, duración de 1 año
+Club de inversores:incluido
+En el futuro se creará un Boletín mensual noticias inmuebles. Actualmente ya se están celebrando comidas networking inversores con el equipo de Vantia.
+Y para que así conste, suscriben el presente documento, por duplicado ejemplar y a un solo efecto, en el lugar y fecha arriba indicados
+Vantia Patrimonio, S.L.________________________

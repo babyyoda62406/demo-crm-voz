@@ -1,0 +1,212 @@
+<!--
+  Hoja de estilo compartida por los documentos de demostracion del Drive.
+  Se inserta tal cual dentro de cada .html: Gotenberg renderiza con Chromium
+  sin acceso a red, asi que TODO tiene que ir en linea (nada de CDN ni fuentes
+  externas). Este fichero no se envia a Gotenberg por su cuenta; lo pega el
+  script `seed-drive-demo.sh` en el marcador ESTILO de cada documento.
+
+  OJO: aqui dentro no puede aparecer el cierre de comentario de HTML. Este
+  bloque acaba pegado dentro del cuerpo del documento, y el navegador cierra el
+  comentario en la PRIMERA secuencia de cierre que encuentra: si el marcador se
+  escribiera literalmente, el resto del comentario se colaria como texto visible
+  en la esquina de todos los PDF.
+-->
+<style>
+  @page {
+    size: A4;
+    margin: 18mm 16mm 20mm 16mm;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.45;
+    color: #1f2933;
+  }
+
+  /* --- Cabecera de marca ------------------------------------------------ */
+  .marca {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 2.5pt solid #0f766e;
+    padding-bottom: 6pt;
+    margin-bottom: 14pt;
+  }
+
+  .marca .nombre {
+    font-size: 17pt;
+    font-weight: 700;
+    letter-spacing: 0.5pt;
+    color: #0f766e;
+  }
+
+  .marca .nombre span {
+    display: block;
+    font-size: 8.5pt;
+    font-weight: 400;
+    letter-spacing: 1.6pt;
+    text-transform: uppercase;
+    color: #5b6b73;
+  }
+
+  .marca .meta {
+    text-align: right;
+    font-size: 8.5pt;
+    color: #5b6b73;
+    line-height: 1.35;
+  }
+
+  /* --- Titulos ---------------------------------------------------------- */
+  h1 {
+    font-size: 15pt;
+    margin: 0 0 2pt;
+    color: #0b3b39;
+  }
+
+  .subtitulo {
+    font-size: 9.5pt;
+    color: #5b6b73;
+    margin: 0 0 14pt;
+  }
+
+  /* `page-break-after: avoid` evita el titular huerfano al pie de pagina:
+     sin el, un epigrafe puede quedarse solo abajo y su contenido saltar a la
+     hoja siguiente. */
+  h2 {
+    font-size: 11pt;
+    margin: 16pt 0 6pt;
+    padding-bottom: 3pt;
+    border-bottom: 0.75pt solid #cfd9de;
+    color: #0b3b39;
+    page-break-after: avoid;
+  }
+
+  h3 {
+    font-size: 10pt;
+    margin: 10pt 0 4pt;
+    color: #0f766e;
+    page-break-after: avoid;
+  }
+
+  p { margin: 0 0 7pt; text-align: justify; }
+
+  /* --- Resumen en cifras ------------------------------------------------ */
+  .cifras {
+    display: flex;
+    gap: 8pt;
+    margin: 10pt 0 4pt;
+  }
+
+  .cifra {
+    flex: 1;
+    border: 0.75pt solid #cfd9de;
+    border-top: 2.5pt solid #0f766e;
+    border-radius: 2pt;
+    padding: 7pt 8pt;
+    background: #f7fafa;
+  }
+
+  .cifra .valor {
+    display: block;
+    font-size: 14pt;
+    font-weight: 700;
+    color: #0b3b39;
+    line-height: 1.1;
+  }
+
+  .cifra .etiqueta {
+    display: block;
+    font-size: 7.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.6pt;
+    color: #5b6b73;
+    margin-top: 2pt;
+  }
+
+  /* --- Tablas ----------------------------------------------------------- */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9pt;
+    margin: 6pt 0 4pt;
+  }
+
+  thead th {
+    background: #0f766e;
+    color: #ffffff;
+    text-align: left;
+    font-weight: 600;
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    padding: 5pt 6pt;
+  }
+
+  tbody td {
+    border-bottom: 0.5pt solid #dde5e8;
+    padding: 5pt 6pt;
+    vertical-align: top;
+  }
+
+  tbody tr:nth-child(even) td { background: #f7fafa; }
+
+  td.num, th.num { text-align: right; white-space: nowrap; }
+
+  .ref { font-weight: 700; color: #0b3b39; white-space: nowrap; }
+
+  /* --- Etiquetas de estado ---------------------------------------------- */
+  .tag {
+    display: inline-block;
+    font-size: 7.5pt;
+    font-weight: 600;
+    padding: 1.5pt 5pt;
+    border-radius: 8pt;
+    white-space: nowrap;
+  }
+
+  .tag-ok      { background: #d8f3ef; color: #0b5f58; }
+  .tag-obra    { background: #fdecd2; color: #8a5300; }
+  .tag-cerrado { background: #e3e8eb; color: #47555c; }
+  .tag-curso   { background: #dbe8fb; color: #14457f; }
+
+  /* --- Fichas y avisos --------------------------------------------------- */
+  .ficha {
+    border: 0.75pt solid #cfd9de;
+    border-left: 3pt solid #0f766e;
+    border-radius: 2pt;
+    padding: 8pt 10pt;
+    margin: 8pt 0;
+    page-break-inside: avoid;
+  }
+
+  .ficha .titulo-ficha {
+    font-weight: 700;
+    color: #0b3b39;
+    margin-bottom: 3pt;
+  }
+
+  .nota {
+    background: #f7fafa;
+    border-left: 3pt solid #cfd9de;
+    padding: 7pt 10pt;
+    font-size: 9pt;
+    color: #47555c;
+    margin: 10pt 0;
+  }
+
+  ul { margin: 0 0 7pt; padding-left: 14pt; }
+  li { margin-bottom: 3pt; }
+
+  .pie {
+    margin-top: 18pt;
+    padding-top: 6pt;
+    border-top: 0.5pt solid #cfd9de;
+    font-size: 7.5pt;
+    color: #7b8a91;
+    text-align: justify;
+  }
+</style>

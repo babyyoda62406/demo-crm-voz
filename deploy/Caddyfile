@@ -1,0 +1,53 @@
+# Caddy para CRMIA: sirve el front compilado (front/dist -> /srv/front)
+# y hace de proxy inverso de /api hacia el backend NestJS.
+#
+# CADDY_SITE_ADDRESS: ":80" en local; el dominio real (p.ej. crm.example.com)
+# en el servidor, con lo que Caddy emite y renueva HTTPS automaticamente.
+{
+	admin off
+	email {$CADDY_EMAIL:admin@example.com}
+}
+
+{$CADDY_SITE_ADDRESS::80} {
+	encode zstd gzip
+
+	# --- API: todo /api/* (incluido /api/docs de Swagger) va al backend ---
+	handle /api/* {
+		reverse_proxy back:3000 {
+			header_up X-Real-IP {remote_host}
+			transport http {
+				read_timeout 300s
+				write_timeout 300s
+			}
+		}
+	}
+
+	# --- Front: SPA de React (react-router-dom en modo history) ---
+	handle {
+		root * /srv/front
+
+		# Los assets con hash se pueden cachear de forma agresiva
+		@assets path /assets/*
+		header @assets Cache-Control "public, max-age=31536000, immutable"
+
+		# index.html nunca se cachea: siempre apunta al build actual
+		@html path / /index.html
+		header @html Cache-Control "no-cache, must-revalidate"
+
+		try_files {path} /index.html
+		file_server
+	}
+
+	# Cabeceras de seguridad basicas
+	header {
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "SAMEORIGIN"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		-Server
+	}
+
+	log {
+		output stdout
+		format console
+	}
+}

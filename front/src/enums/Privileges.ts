@@ -1,0 +1,81 @@
+export enum Privileges {
+  ALL_PRIVILEGES = 'ALL_PRIVILEGES',
+  // Usuarios y roles
+  ADD_USER = 'ADD_USER',
+  VIEW_USER = 'VIEW_USER',
+  EDIT_USER = 'EDIT_USER',
+  DELETE_USER = 'DELETE_USER',
+  HARD_DELETE_USER = 'HARD_DELETE_USER',
+  RESTORE_USER = 'RESTORE_USER',
+  ADD_ROL = 'ADD_ROL',
+  VIEW_ROL = 'VIEW_ROL',
+  EDIT_ROL = 'EDIT_ROL',
+  DELETE_ROL = 'DELETE_ROL',
+  // Clientes
+  ADD_CLIENT = 'ADD_CLIENT',
+  VIEW_CLIENT = 'VIEW_CLIENT',
+  EDIT_CLIENT = 'EDIT_CLIENT',
+  DELETE_CLIENT = 'DELETE_CLIENT',
+  // Propiedades
+  ADD_PROPERTY = 'ADD_PROPERTY',
+  VIEW_PROPERTY = 'VIEW_PROPERTY',
+  EDIT_PROPERTY = 'EDIT_PROPERTY',
+  DELETE_PROPERTY = 'DELETE_PROPERTY',
+  // Contratos
+  ADD_CONTRACT = 'ADD_CONTRACT',
+  VIEW_CONTRACT = 'VIEW_CONTRACT',
+  EDIT_CONTRACT = 'EDIT_CONTRACT',
+  DELETE_CONTRACT = 'DELETE_CONTRACT',
+  // Documentos
+  ADD_DOCUMENT = 'ADD_DOCUMENT',
+  VIEW_DOCUMENT = 'VIEW_DOCUMENT',
+  EDIT_DOCUMENT = 'EDIT_DOCUMENT',
+  DELETE_DOCUMENT = 'DELETE_DOCUMENT',
+  // Facturación
+  ADD_INVOICE = 'ADD_INVOICE',
+  VIEW_INVOICE = 'VIEW_INVOICE',
+  EDIT_INVOICE = 'EDIT_INVOICE',
+  DELETE_INVOICE = 'DELETE_INVOICE',
+  // Panel y avisos
+  VIEW_DASHBOARD = 'VIEW_DASHBOARD',
+  // Asistente IA
+  USE_ASSISTANT = 'USE_ASSISTANT',
+}
+
+export const PrivilegesLabels: Record<Privileges, string> = {
+  [Privileges.ALL_PRIVILEGES]: 'Todos los privilegios',
+  [Privileges.ADD_USER]: 'Crear usuario',
+  [Privileges.VIEW_USER]: 'Ver usuario',
+  [Privileges.EDIT_USER]: 'Editar usuario',
+  [Privileges.DELETE_USER]: 'Eliminar usuario',
+  [Privileges.HARD_DELETE_USER]: 'Eliminar usuario definitivamente',
+  [Privileges.RESTORE_USER]: 'Restaurar usuario',
+  [Privileges.ADD_ROL]: 'Crear rol',
+  [Privileges.VIEW_ROL]: 'Ver rol',
+  [Privileges.EDIT_ROL]: 'Editar rol',
+  [Privileges.DELETE_ROL]: 'Eliminar rol',
+  [Privileges.ADD_CLIENT]: 'Crear cliente',
+  [Privileges.VIEW_CLIENT]: 'Ver cliente',
+  [Privileges.EDIT_CLIENT]: 'Editar cliente',
+  [Privileges.DELETE_CLIENT]: 'Eliminar cliente',
+  [Privileges.ADD_PROPERTY]: 'Crear propiedad',
+  [Privileges.VIEW_PROPERTY]: 'Ver propiedad',
+  [Privileges.EDIT_PROPERTY]: 'Editar propiedad',
+  [Privileges.DELETE_PROPERTY]: 'Eliminar propiedad',
+  [Privileges.ADD_CONTRACT]: 'Crear contrato',
+  [Privileges.VIEW_CONTRACT]: 'Ver contrato',
+  [Privileges.EDIT_CONTRACT]: 'Editar contrato',
+  [Privileges.DELETE_CONTRACT]: 'Eliminar contrato',
+  [Privileges.ADD_DOCUMENT]: 'Subir documento',
+  [Privileges.VIEW_DOCUMENT]: 'Ver documento',
+  [Privileges.EDIT_DOCUMENT]: 'Editar documento',
+  [Privileges.DELETE_DOCUMENT]: 'Eliminar documento',
+  [Privileges.ADD_INVOICE]: 'Crear factura',
+  [Privileges.VIEW_INVOICE]: 'Ver factura',
+  [Privileges.EDIT_INVOICE]: 'Editar factura',
+  [Privileges.DELETE_INVOICE]: 'Eliminar factura',
+  [Privileges.VIEW_DASHBOARD]: 'Ver el panel y los avisos',
+  [Privileges.USE_ASSISTANT]: 'Usar asistente',
+};
+
+export const PrivilegesList = Object.values(Privileges);

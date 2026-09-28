@@ -1,0 +1,46 @@
+En Altabria a {diaContrato} de {mesContrato} de {anioContrato}
+
+
+
+ANEXO AL CONTRATO DE ARRENDAMIENTO - INCORPORACIÓN DE NUEVO INQUILINO 
+
+REUNIDOS 
+
+ARRENDADOR:
+Nombre o Razón Social: {arrendadorNombre} 
+DNI/NIF: {arrendadorDni}
+Domicilio:{arrendadorDomicilio}
+
+INQUILINOS: 
+Nombre: {inquilino1Nombre} DNI/NIE: {inquilino1Dni} Nombre: {inquilino2Nombre} DNI/NIE: {inquilino2Dni}
+ 
+NUEVO INQUILINO QUE SE INCORPORA: 
+Nombre: {nuevoInquilinoNombre} 
+DNI/NIE: {nuevoInquilinoDni} 
+Domicilio actual: {nuevoInquilinoDomicilio} Teléfono: {nuevoInquilinoTelefono} 
+Email: {nuevoInquilinoEmail} 
+
+EXPONEN 
+Que con fecha {fechaContratoOriginal} se suscribió contrato de arrendamiento respecto de la vivienda sita en: {direccionInmueble}, en el que figuran como arrendatario(s) las personas arriba indicadas. Que por mutuo acuerdo, ambas partes desean incorporar al presente contrato como nuevo inquilino a la persona arriba identificada, quien asume desde este momento los derechos y obligaciones derivados del contrato principal. 
+
+ACUERDAN
+
+Primera.- Incorporación del nuevo inquilino 
+Se incorpora como nuevo inquilino: 
+D./Dña. {nuevoInquilinoNombre}, con DNI/NIE nº {nuevoInquilinoDni}, quien manifiesta conocer y aceptar todas las cláusulas y condiciones del contrato de arrendamiento original, así como los posibles anexos o modificaciones previas al presente anexo.
+
+Segunda.- Vigencia El presente anexo tendrá vigencia desde su firma, formando parte inseparable del contrato de arrendamiento original y manteniéndose el resto de sus cláusulas en todos sus términos.
+ 
+Tercera.- Entrega de llaves El nuevo inquilino declara haber recibido copia de las llaves de la vivienda arrendada y se compromete a hacer un uso adecuado de las mismas, así como a devolverlas al finalizar el arrendamiento conforme a lo pactado. 
+
+Cuarta.- Notificaciones A efectos de notificaciones, las partes señalan como domicilio el que figura en contrato original, salvo que comuniquen por escrito un domicilio distinto.
+
+Quinta.- Firma y aceptación Las partes firman el presente anexo en todas sus hojas, reconociendo haberlo leído y comprendido en su totalidad, en prueba de conformidad y a un solo efecto. 
+
+
+
+
+
+EL ARRENDADOR ARRENDATARIO
+
+  

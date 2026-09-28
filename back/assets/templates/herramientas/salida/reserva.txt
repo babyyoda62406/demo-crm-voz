@@ -1,0 +1,15 @@
+En Altabria, a {diaContrato} de {mesContrato} de {anioContrato}
+
+En concepto de Paga y Señal
+De una parte {firmanteNombre} con DNI: {firmanteDni} mayor de edad y con domicilio en:  {firmanteDomicilio} , en representación de la empresa {empresaRazonSocial}  con CIF {empresaCif}  y domicilio en {empresaDomicilio}                                       
+En este acto hace entrega de {importeReservaLetras} ( {importeReservaBase} más IVA = {importeReservaTotal}), en concepto de reserva y honorarios del inmueble en {direccionInmueble}, a VANTIA PATRIMONIO S.L con CIF B00000000 , mediante trasferencia bancaria a la cuenta número ES00 0000 0000 0000 0000 0000, del mismo titular.
+Manifiestan 
+Que el cliente está interesado en alquilar el precitado inmueble a título de INQUILINO. Que se pacta precio mensual de {precioMensualLetras} ({precioMensualCifra}) y que dicho importe incluye la cuota de comunidad, seguro de la vivienda e impuestos obligatorios. 
+Los suministros de agua, luz y gas se cobrarán aparte.
+Esta oferta está sujeta a la aceptación por parte de la propiedad. Este importe de RESERVA tendrá validez hasta el día {validezHasta}, plazo en el que deberá formalizarse contrato de arrendamiento. 
+Si hubiese denegación del arrendamiento por motivos ajenos al cliente, se le devolverá íntegramente el importe de paga señal, por el mismo canal que haya sido realizada la reserva, en un plazo no superior a 7 días hábiles. En caso contrario, en el supuesto de que el cliente desistiese del alquiler o no aportase la documentación solicitada perderá la paga y señal entregada. 
+Reconociéndose mutua y plena capacidad para formalizar este acto se firma el presente documento en prueba de su conformidad por duplicado y a un solo efecto en lugar y fecha arriba indicado. 
+
+
+EL CLIENTE INTERMEDIARIA INMOBILIARIA
+

@@ -1,0 +1,42 @@
+{
+  "welcome": "Te damos la bienvenida",
+  "loading": "Cargando...",
+  "error": "Error",
+  "success": "Éxito",
+  "save": "Guardar",
+  "cancel": "Cancelar",
+  "delete": "Eliminar",
+  "edit": "Editar",
+  "create": "Crear",
+  "search": "Buscar",
+  "close": "Cerrar",
+  "confirm": "Confirmar",
+  "back": "Volver",
+  "noData": "No hay datos disponibles",
+  "underConstruction": "En construcción",
+  "underConstructionMessage": "Esta sección estará disponible próximamente.",
+  "logout": "Cerrar sesión",
+  "profile": "Mi perfil",
+  "menu": "Menú",
+  "pagination": {
+    "showing": "Mostrando",
+    "to": "a",
+    "of": "de",
+    "records": "registros",
+    "perPage": "Por página:",
+    "all": "Todos"
+  },
+  "filterBar": {
+    "search": "Buscar",
+    "clear": "Limpiar"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "clients": "Clientes",
+    "properties": "Propiedades",
+    "contracts": "Contratos",
+    "documents": "Documentos",
+    "invoices": "Facturas",
+    "assistant": "Asistente IA"
+  }
+}

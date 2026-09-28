@@ -1,0 +1,35 @@
+DOCUMENTO DE PRÓRROGA DE CONTRATO DE ALQUILER DE TEMPORADA
+
+
+En Altabria a {diaContrato} de {mesContrato} de {anioContrato}_
+
+REUNIDOS
+De una parte, la empresa {arrendatarioRazonSocial} con CIF {arrendatarioCif} y domicilio en {arrendatarioDomicilio} y su administrador {arrendatarioAdministrador} con DNI: {arrendatarioAdministradorDni} con domicilio {arrendatarioAdministradorDomicilio} en concepto de ARRENDATARIO
+
+Y de otra parte, {arrendadorNombre} mayor de edad y DNI nº {arrendadorDni}, con domicilio {arrendadorDomicilio}. En concepto de ARRENDADOR.
+_
+Ambas partes en su propio nombre y derecho, reconociéndose la plena capacidad legal para el otorgamiento del presente contrato de arrendamiento y,
+
+
+INTERVIENEN
+Ambas partes en su propio nombre e interés, reconociéndose la capacidad legal suficiente para la eficacia de este otorgamiento, de plena y libre voluntad, tal y como respectivamente actúan y
+
+MANIFIESTAN
+_
+PRIMERO. –Que con fecha {fechaContratoOriginal}, las partes celebraron un contrato de arrendamiento del inmueble sito en {direccionInmueble}.
+_
+SEGUNDO. –Que, teniendo en cuenta lo establecido en dicho contrato de arrendamiento, el plazo de duración del citado contrato finaliza el próximo {fechaFinOriginal}.
+
+TERCERA. – Que ambas partes tienen interés en la prórroga del contrato de arrendamiento en su día celebrado, por lo que de común acuerdo han decidido otorgar el presente acuerdo de prórroga, conforme a las siguientes 
+
+
+ESTIPULACIONES
+_
+PRIMERA. -De la duración:
+Las partes acuerdan que, al vencimiento del contrato de arrendamiento, que tendrá lugar el día {fechaFinOriginal}, el contrato quedará prorrogado durante {duracionProrroga}. Por lo tanto, la duración de la prórroga del contrato se pacta hasta el día {fechaFinProrroga}.
+SEGUNDA. – Las partes acuerdan que al contrato prorrogado le será de aplicación las mismas condiciones que el contrato original. _
+
+El presente contrato de arrendamiento ha sido pactado y negociado por las partes de forma expresa, individual y detallada en todos sus puntos y para que así conste y en prueba de conformidad de cuanto antecede, las partes lo firman por duplicado ejemplar y a un solo efecto, en el lugar y fecha indicados en el encabezamiento.
+
+EL ARRENDADOR                                        EL ARRENDATARIO
+

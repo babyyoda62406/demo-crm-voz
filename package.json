@@ -1,0 +1,43 @@
+{
+  "name": "demo-crm-voz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CRM inmobiliario con agentes de voz: NestJS + TypeORM + React 19. Versión pública de demostración.",
+  "workspaces": [
+    "back",
+    "front"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "dev:back": "npm run start:dev --workspace=back",
+    "dev:front": "npm run dev --workspace=front",
+    "dev": "concurrently -n back,front -c blue,magenta \"npm run dev:back\" \"npm run dev:front\"",
+    "build:back": "npm run build --workspace=back",
+    "build:front": "npm run build --workspace=front",
+    "build": "npm run build:back && npm run build:front",
+    "seed": "npm run seed --workspace=back",
+    "start:back": "npm run start:prod --workspace=back",
+    "start:front": "npm run preview --workspace=front",
+    "start": "concurrently -n back,front -c blue,magenta \"npm run start:back\" \"npm run start:front\"",
+    "typecheck:back": "npm run typecheck --workspace=back",
+    "typecheck:front": "npm run typecheck --workspace=front",
+    "typecheck": "npm run typecheck:back && npm run typecheck:front",
+    "lint:back": "npm run lint --workspace=back",
+    "lint:front": "npm run lint --workspace=front",
+    "lint": "npm run lint:back && npm run lint:front",
+    "test": "npm run test --workspace=back",
+    "test:cov": "npm run test:cov --workspace=back",
+    "docker:dev": "docker compose -f docker-compose.dev.yml up -d",
+    "docker:dev:down": "docker compose -f docker-compose.dev.yml down",
+    "docker:dev:logs": "docker compose -f docker-compose.dev.yml logs -f",
+    "docker:prod": "docker compose -f docker-compose.prod.yml up -d --build",
+    "docker:prod:down": "docker compose -f docker-compose.prod.yml down"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  }
+}

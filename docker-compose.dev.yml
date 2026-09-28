@@ -1,0 +1,95 @@
+# Infraestructura de desarrollo de CRMIA.
+# Levanta unicamente los servicios de apoyo: el back y el front se ejecutan
+# en local con `npm run dev` desde la raiz del monorepo.
+#
+#   docker compose -f docker-compose.dev.yml up -d
+#
+# Las variables se interpolan desde el fichero .env de la raiz.
+
+name: crmia-dev
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: crmia_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DB_USERNAME:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+      POSTGRES_DB: ${DB_DATABASE:-crmia}
+    ports:
+      # Puerto publicado en el host = DB_PORT del .env (5437 por defecto).
+      - "${DB_PORT:-5437}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U ${DB_USERNAME:-postgres} -d ${DB_DATABASE:-crmia}",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  # Conversion HTML/DOCX -> PDF (presupuestos, dosieres de inversion).
+  gotenberg:
+    image: gotenberg/gotenberg:8
+    container_name: crmia_gotenberg
+    restart: unless-stopped
+    command:
+      - gotenberg
+      - --api-timeout=120s
+      - --chromium-disable-javascript=false
+    ports:
+      - "3001:3000"
+    healthcheck:
+      test: ["CMD", "curl", "--silent", "--fail", "http://localhost:3000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  # Edicion online de documentos (contratos, hojas de reforma).
+  onlyoffice:
+    image: onlyoffice/documentserver:latest
+    container_name: crmia_onlyoffice
+    restart: unless-stopped
+    environment:
+      JWT_ENABLED: "true"
+      JWT_SECRET: ${ONLYOFFICE_JWT_SECRET:?Define ONLYOFFICE_JWT_SECRET en .env}
+      JWT_HEADER: Authorization
+      JWT_IN_BODY: "true"
+    ports:
+      - "8081:80"
+    extra_hosts:
+      # En desarrollo el backend NO vive en Docker: corre en el host con
+      # `npm run dev` en el puerto 3000. El Document Server tiene que poder
+      # descargar el documento (`document.url`) y avisar del guardado
+      # (`callbackUrl`), y para el `localhost` es su propio contenedor. Esta
+      # entrada es la que hace resolver `host.docker.internal` en Linux, donde
+      # -a diferencia de Docker Desktop- no viene de serie. Sin ella el editor
+      # abre pero se queda en "Descargando documento..." y acaba en error.
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - onlyoffice_data:/var/www/onlyoffice/Data
+      - onlyoffice_logs:/var/log/onlyoffice
+      - onlyoffice_cache:/var/lib/onlyoffice/documentserver/App_Data/cache/files
+    healthcheck:
+      test:
+        ["CMD", "curl", "--silent", "--fail", "http://localhost/healthcheck"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 90s
+
+volumes:
+  postgres_data:
+    driver: local
+  onlyoffice_data:
+    driver: local
+  onlyoffice_logs:
+    driver: local
+  onlyoffice_cache:
+    driver: local

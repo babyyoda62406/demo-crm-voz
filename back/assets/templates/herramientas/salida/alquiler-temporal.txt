@@ -1,0 +1,116 @@
+CONTRATO DE ALQUILER DE TEMPORADA
+
+
+En Altabria, a {diaContrato} de {mesContrato} de {anioContrato}
+._
+
+
+REUNIDOS
+De una parte, la empresa {arrendatarioRazonSocial} con CIF {arrendatarioCif} y domicilio en {arrendatarioDomicilio} y su administrador {arrendatarioAdministrador} con DNI: {arrendatarioAdministradorDni} con domicilio {arrendatarioAdministradorDomicilio} en concepto de ARRENDATARIO
+
+Y de otra parte, {arrendadorNombre} mayor de edad y DNI nº {arrendadorDni}, con domicilio {arrendadorDomicilio}, en concepto de ARRENDADOR.
+_
+Ambas partes en su propio nombre y derecho, reconociéndose la plena capacidad legal para el otorgamiento del presente contrato de arrendamiento y,
+
+EXPONEN
+_
+PRIMERO. - Que {arrendadorNombre} ,es propietario de la vivienda de la finca urbana sita en {direccionInmueble}.
+_
+SEGUNDO. - Que interesando {arrendatarioRazonSocial} en lo sucesivo el arrendatario, alquila dicha vivienda por la temporada de {temporada} , llevan a cabo el presente CONTRATO DE ARRENDAMIENTO DE USO DISTINTO DE VIVIENDA, EN RÉGIMEN DE TEMPORADA, en base a las siguientes:
+
+ESTIPULACIONES
+_
+
+PRIMERA. -De la duración:
+El presente contrato de arrendamiento se otorga para la temporada comprendida entre el día {inicioDia} del mes de {inicioMes} del año {inicioAnio}, al día {finDia} del mes de {finMes} del año {finAnio}.
+El plazo de duración de este contrato es de {duracionContrato}, a contar desde el día de la fecha. Por lo tanto, quedará extinguido automáticamente el día fijado como final de temporada, momento en que el arrendatario deberá de dejar el inmueble libre, vacuo, entregando las llaves al arrendador, a excepción del mobiliario inventariado, y sin ninguna demora.
+En el caso de que el arrendatario no desaloje la finca después del requerimiento del arrendador a la finalización del contrato, tendrá que abonar una cantidad equivalente al doble de la renta fijada para la temporada.
+No obstante, cualquiera de las partes podrá rescindir anticipadamente el contrato, avisándolo con 30 días de antelación. En el caso de que el arrendatario hiciera uso de este derecho, no estará obligado a pagar las rentas que quedaren por vencer hasta el vencimiento del contrato.
+_
+SEGUNDA. -Del precio:
+El precio de este arrendamiento será de {precioMensualLetras} ({precioMensualCifra}€) mensuales, se cobrará por adelantado, antes del día {diaPago} de cada mes.
+El pago se hará en la cuenta corriente de la arrendadora: {iban}
+Dentro de este importe se incluyen los gastos generales, tributos y servicios.
+Los suministros del inmueble no quedan incluidos en este importe, facturas de agua, luz y gas del período.
+Independientemente de la renta pactada, serán a cargo del arrendatario el importe de:
+
+Los gastos derivados del presente contrato, tales como timbres, gestión y registro, así como los gastos y honorarios del Administrador, para su formalización y tramitación.
+
+Dichos gastos se actualizarán anualmente, repercutiendo al arrendatario las variaciones que se produzcan, y se señalarán en concepto aparte de la renta, pero integrados en el recibo del alquiler.
+_
+TERCERA. –Actualización de la renta pactada
+Las partes contratantes convienen que la renta pactada se acomodará cada año a las variaciones que en más o en menos sufra el Índice de Precios al Consumo (I.P.C.) que fije el Instituto Nacional de Estadística u Organismo Oficial que le sustituya para el Conjunto Nacional Total, tomando como base la existente en la fecha del contrato y en las posteriores aplicaciones, se calculará sobre la renta actualizada. Para la aplicación de la primera actualización se tomará como índice de referencia el publicado en el pasado mes anterior a la fecha del contrato, y en las siguientes, el que corresponda al mismo mes en los años sucesivos.
+
+La renta actualizada será exigible al arrendatario a partir del mes siguiente a aquel en que la parte interesada lo notifique a la otra por escrito, expresando el porcentaje de alteración aplicado.
+
+En ningún caso la demora en aplicar la revisión supondrá renuncia o caducidad del derecho para efectuarla.
+
+CUARTA. - Destino
+Ambas partes establecen que el presente contrato tiene el carácter de un arrendamiento de temporada, concertado para realizar unas obras de construcción.
+Los empleados que se alojarán en la vivienda son en este acto:
+{#ocupantes}
+Nombre: {nombre}  DNI: {dni} y domicilio: {domicilio}
+{/ocupantes}
+
+
+El arrendatario se obliga a informar de los cambios de los ocupantes de la vivienda 1 semana antes de su alojamiento, mediante comunicación expresa al email del arrendador y la agencia inmobiliaria. El número máximo de personas que pueden ocupar la vivienda es de 4, por lo tanto, queda prohibida la sobreocupación.
+Por lo que, teniendo el arrendatario y los empleados que ocupan el dicho inmueble tienen otro domicilio que satisface su necesidad permanente de vivienda, sito según manifiesta en los domicilios anteriores, el presente contrato se configura como de temporada, de acuerdo con el Art. 3.1 en relación con el 2.1 de la Ley 29/1994, de 24 de noviembre, de Arrendamientos Urbanos. 
+Para el caso de que el arrendatario cambie el uso o el destino de la finca, o trasladara o se empadronara, en éste, su domicilio habitual, incurrirá en el incumplimiento del contrato y esto dará derecho al arrendador a resolver el presente contrato, a tenor de lo dispuesto en el artículo 27.1 de la LAU.
+Es objeto de arrendamiento exclusivamente la superficie situada dentro de las paredes de la vivienda, quedando especialmente excluida la fachada, partes laterales de la entrada, azotea y vestíbulo de la escalera.
+
+QUINTA. - OBLIGACIONES FISCALES 
+De conformidad con lo expresamente manifestado por las partes en la Condición Particular 4.2, serán de aplicación las siguientes condiciones generales: 10.1 El presente arrendamiento se halla sujeto pero exento de IVA por aplicación del artículo 20.23 de la Ley 37/1992 del impuesto, y por aplicación de consultas vinculantes de la AEAT, entre otras, Resolución TEAC, de 15 de diciembre de 2016. nº 3856/2013 Resolución TEAC, de 15 de diciembre de 2016. nº 3857/2013. Dado que la presente relación arrendaticia se halla sujeta pero exenta de IVA, el Arrendatario manifiesta conocer expresamente que el arrendamiento se halla sujeto al pago del ITP. 10.2 Asimismo, no existe obligación de practicar retención en virtud del artículo 75.3g del reglamento del IRPF al tratarse de un arrendamiento temporal de vivienda por empresas para sus empleados expresamente identificados en el presente contrato. 10.3 Si bien lo anterior en virtud del artículo 2.2 en relación con el artículo 3 del Real Decreto 1619/2012 de 30 de noviembre por el que se aprueba el Reglamento por el que se regulan las obligaciones de facturación, el arrendador deberá emitir factura incluyendo todos los requisitos determinados en la normativa vigente al respecto.
+
+SEXTA. - RÉGIMEN DE COMUNICACIÓN DE LAS PARTES 
+Con el fin de facilitar las comunicaciones entre las partes se designan las siguientes direcciones de correo electrónico, siempre que se garantice la autenticidad de la comunicación y de su contenido y quede constancia fehaciente de la emisión y recepción íntegras y del momento en que se hicieron. 
+
+Por el Arrendador: para cualquier asunto relativo al presente contrato a: {arrendadorEmail}
+Por el Arrendatario: para cualquier asunto relativo al presente contrato a: {arrendatarioEmail}
+
+SEPTIMA. -Estado de conservación y mobiliario
+El apartamento se entrega en condiciones normales de servir para el uso a que se destina, siendo dé cuenta de la propiedad las reparaciones que, en su caso, fuese necesario realizar para mantenerlo en dichas condiciones, obligándose el arrendatario a devolverlo, al término del contrato, en el mismo estado de conservación.
+Dicha vivienda se encuentra amueblada, con el mobiliario, enseres y objetos y que forma parte integrante del mismo, considerándolos adecuados y suficientes al objeto del arriendo, habiendo recibido por la presente la satisfacción del arrendatario, quien se compromete a conservar-lo en buen estado de uso y funcionamiento, haciéndose cargo de los desperfectos que le sean imputables.
+_
+OCTAVA. - Responsabilidad
+El arrendatario manifiesta haber procedido al examen de la vivienda arrendada, así como del mobiliario en ella incluido, reconociendo hallarse en perfecto estado para su uso y ocupación.
+El arrendatario será responsable tanto de sus propios actos como de los que cometan los restantes ocupantes de la vivienda, aun siendo estos ocasionales, a efectos de la posible indemnización que por daños y perjuicios de los mismos pueda derivarse tanto a los efectos del párrafo anterior, como de una posible indemnización de daños y perjuicios.
+_
+NOVENA. - Prohibiciones
+Queda expresamente prohibido la cesión o subarriendo del apartamento arrendado, así como la realización de obras en el mismo, sin previa autorización de la propiedad.
+
+La arrendataria viene obligada:
+•A no instalar transmisiones, motores, máquinas, etc., que produzcan vibraciones o ruidos molestos para los demás ocupantes del inmueble o de los colindantes de la propiedad, o que puedan afectar a la consistencia, solidez o conservación del inmueble.
+•A no almacenar o manipular en el local materias explosivas, inflamables, incómodas o insalubres, y observar en todo momento las disposiciones vigentes.
+•A permitir el acceso, al propietario, al Administrador y a los operarios o industriales mandados por cualquiera de ambos, para la realización, inspección y comprobación de cualquier clase de obras o reparaciones que afecten al inmueble.
+
+Hallándose la finca integrada en un inmueble en Régimen de Comunidad en Propiedad Horizontal, a cumplir en todo momento las normas estatutarias, reglamentarias y a los acuerdos que la Comunidad de Propietarios tenga establecidos o establezcan, en orden a la utilización de los servicios, elementos comunes y buenos régimen de convivencia.  
+
+La limpieza de los elementos comunes será responsabilidad y a cargo de la arrendataria, así pues, de no existir servicio de portería, conserjería o de limpieza, la parte arrendataria procederá, cuando por turno le corresponda, y según hayan acordado los vecinos de la finca, a la limpieza de la escalera, vestíbulo y demás elementos comunes.
+
+DECIMA. Legislación aplicable.
+El presente contrato se otorga conforme a lo establecido en la Ley 29/1994, de 24 de noviembre, de Arrendamientos Urbanos, a tenor del artículo 3.2. y del 4.3, y se regirá por lo libremente pactado en el presente contrato, y en todo lo no recogido en el mismo, por lo determinado en el Título III de la citada Ley, y supletoriamente por lo dispuesto en el Código Civil.
+Las partes se someten por imperativo de la Ley a los Juzgados y Tribunales del lugar donde reside la finca (si fuera otro, especificar).
+
+UNDÉCIMA. -Renuncias. 
+La parte arrendataria renuncia a los derechos contenidos en los artículos 31 a 33 de la Ley de Arrendamientos Urbanos, y por tanto a los derechos de subrogación, cesión o traspaso, ya sean de forma total o parcial, tanteo, retracto y derecho de impugnación de la transmisión.
+_
+DUODÉCIMA. - Fianza. 
+A la firma del presente contrato el arrendatario entrega al arrendador la cantidad de {fianzaLetras} ({fianzaCifra}€), importe de un mes de renta, en concepto de fianza legal, a tenor de lo dispuesto en el artículo 36.1 de la LAU, a fin de garantizar el cumplimiento de las obligaciones de este contrato y responder de los posibles daños en las instalaciones de la finca, así como de la reparación o sustitución, en su caso, del mobiliario y enseres.
+A la resolución del contrato la fianza será devuelta previa comprobación de que la vivienda se haya en perfecto estado y que las obligaciones asumidas han sido satisfechas. A tal efecto, convienen las partes, que los propietarios dispondrán de un plazo máximo de un mes, a contar del día de la extinción del arrendamiento, para realizar las comprobaciones que considere oportunas, una vez finalizado el mismo deberán abonar en el plazo de otro mes el importe de la fianza, reducida o compensada si fuera el caso.
+
+En ningún caso la existencia de dicha fianza podrá justificar el retraso en el pago de la renta y demás gastos del alquiler.
+
+DECIMOTERCERA. - Fijación de domicilio a efectos de notificaciones. _
+Queda fijado el domicilio del arrendatario en {arrendatarioDomicilioNotificaciones}, todo ello a efectos de recibir cualquier notificación derivada del conjunto de derechos y obligaciones derivados de este contrato.
+
+DECIMOCUARTA. -Protección de datos
+De acuerdo con lo dispuesto en las normativas vigentes en protección de datos personales, y en cumplimiento de la vigente Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales (LOPD) y garantía de los derechos digitales, los comparecientes quedan informados de que sus datos personales quedarán incorporados y serán tratados en los ficheros titularidad de {responsableDatos}, con el fin de poder formalizar el presente contrato, facturar los honorarios y, en su caso, realizar posteriormente funciones propias de la actividad de gestión de fincas. También quedan informados de la posibilidad de ejercer los derechos de acceso, rectificación, cancelación y oposición a sus datos de carácter personal, mediante escrito dirigido a la inmobiliaria en dirección antes señalada.
+
+El arrendatario faculta expresamente al arrendador y a su Administrador, a fin de que puedan ceder sus datos de identificación, domicilio, teléfono y cuenta bancaria a las compañías suministradoras de agua, gas y electricidad si fuese necesario y éste lo solicitara para proceder al alta o la facturación de los consumos de los respectivos servicios. Asimismo, podrá facilitar el número de teléfono del arrendatario a los industriales encargados de la realización de los trabajos de reparación y mantenimiento en el inmueble.
+
+El presente contrato de arrendamiento ha sido pactado y negociado por las partes de forma expresa, individual y detallada en todos sus puntos y para que así conste y en prueba de conformidad de cuanto antecede, las partes lo firman por duplicado ejemplar y a un solo efecto, en el lugar y fecha indicados en el encabezamiento.
+
+EL ARRENDADOR                                        EL ARRENDATARIO
+
+
+

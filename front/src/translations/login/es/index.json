@@ -1,0 +1,11 @@
+{
+  "login": {
+    "title": "Iniciar sesión",
+    "subtitle": "Accede a tu cuenta de CRMIA",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submit": "Iniciar sesión",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "footer": "CRM Inmobiliario Inteligente"
+  }
+}
